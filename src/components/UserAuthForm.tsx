@@ -5,7 +5,7 @@ import { signIn } from 'next-auth/react'
 import * as React from 'react'
 import { FC } from 'react'
 import { Button } from './ui/Button'
-import { toast } from './ui/Toast'
+import { toast } from '@/ui/Toast'
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
